@@ -1,0 +1,27 @@
+{
+    ".source.ego": {
+        "Code": {
+            "body": [
+                "<%",
+                "${code}",
+                "%>"
+            ],
+            "description": "Code",
+            "prefix": "<%"
+        },
+        "If statment": {
+            "body": [
+                "<% if ${conditions} { %>",
+                "\t${result}",
+                "<% } %>"
+            ],
+            "description": "If statment",
+            "prefix": "<% if"
+        },
+        "Print": {
+            "body": "<%= ${code} %>",
+            "description": "Print",
+            "prefix": "<%="
+        }
+    }
+}

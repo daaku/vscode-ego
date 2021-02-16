@@ -1,0 +1,47 @@
+{
+    "name": "vscode-ego",
+    "displayName": "vscode-ego",
+    "description": "ego extension for VS Code",
+    "version": "0.1.0",
+    "license": "MIT",
+    "publisher": "daaku",
+    "repository": {
+        "url": "https://github.com/daaku/vscode-ego"
+    },
+    "devDependencies": {
+        "vsce": "^1.81.1"
+    },
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ego",
+                "aliases": [
+                    "ego"
+                ],
+                "extensions": [
+                    "ego"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ego",
+                "scopeName": "source.ego",
+                "path": "./syntaxes/ego.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "ego",
+                "path": "./snippets/ego.json"
+            }
+        ]
+    }
+}
