@@ -3,10 +3,10 @@
 	"name": "Ego",
 	"patterns": [
 		{
-			"include": "#html"
+			"include": "#go"
 		},
 		{
-			"include": "#go"
+			"include": "#html"
 		}
 	],
 	"repository": {
